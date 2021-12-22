@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Talal Shamout</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__content">
+            <div class="container__textContent">
+                <p class="container__text">
+                    " Hi! I am a passionate Software Developer with a strong technical skill-set, attention to details and one year of experience.
+                    I thrive on learning anything related to software development, and I am always looking for new learning opportunities. "
+                </p>
+                <div class="container__authorData">
+                    <p class="container__authorName">Mohamed Talal Shamout</p>
+                    <p class="container__authorPosition">Software Developer</p>
+                </div>
+                <div class="container__socialLinks">
+                    <a href="https://www.linkedin.com/in/talal-shamout/" class="container__socialLink" target="_blank">
+                        <img src="./images/linkedin.svg" alt="linkedin" class="container__socialImage">
+                    </a>
+                    <a href="https://github.com/MohammadTalal" class="container__socialLink" target="_blank">
+                        <img src="./images/github.svg" alt="github" class="container__socialImage">
+                    </a>
+                </div>
+            </div>
+            <div class="container__imageContent" >
+                <img src="./images/personal-pic.jpg" alt="personal picture" class="container__image">
+            </div>
+        </div>
+
+        <div class="container__content">
+            <div class="container__imageContent container__skillImage" >
+                <img src="./images/skills-pic.png" alt="personal picture" class="container__image">
+            </div>
+            <div class="container__textContent">
+     
+                <h2>My Skills</h2>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="90">JavaScript</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="90">React JS</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="75">Vue JS</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="85">Node JS</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="75">ASP .NET</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="90">Java</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="90">C#</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                    <span data-progress="90">MySQL</span>
+                </div>
+                <a class="download__resume" href="./images/Resume - Talal Shamout.pdf" target="_blank" download="Resume - Talal Shamout">
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+        
+        <div class="container__content">
+            <div class="container__textContent">
+                <h2>Contact Me</h2>
+                <form action="https://formsubmit.co/mhd.talal.shamout@gmail.com" method="POST">
+                    <input type="text" name="name" class="input__field" placeholder="Your Name" required><br/>
+                    <input type="email" name="email" class="input__field" placeholder="Your Email" required><br/>
+                    <input type="text" name="_subject" class="input__field" placeholder="Subject" required><br/>
+                    <textarea type="text" class="input__field textarea__field" placeholder="Your Message" required></textarea><br/>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
